@@ -35,10 +35,10 @@ pipeline {
   }
   post{
     success{
-        notifyLINE("succeed")
+        notifyLINE("Succeed")
     }
     failure{
-        notifyLINE("failed")
+        notifyLINE("Failed")
     }
   }
 }
